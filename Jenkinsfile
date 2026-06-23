@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    environment {
+        ANDROID_HOME = 'C:\\Users\\richa\\AppData\\Local\\Android\\Sdk'
+        PATH = "${env.PATH};C:\\Users\\richa\\AppData\\Local\\Android\\Sdk\\platform-tools"
+    }
+
     stages {
         stage('Checkout') {
             steps {
