@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         ANDROID_HOME = 'C:\\Users\\richa\\AppData\\Local\\Android\\Sdk'
-        PATH = "${env.PATH};C:\\Users\\richa\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        PATH = "${env.PATH};C:\\Users\\richa\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Users\\richa\\AppData\\Roaming\\npm"
     }
 
     stages {
